@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url(/assets/images/new\ fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #160101;
+}
+
+h1, h2, h3 {
+    color: #0eb4ca;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(3, 82, 69);
+}
+
+h1 {
+    color: hsla(197, 84%, 20%, 0.63);
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+p {
+    color: #e9e3e3;
+    padding: 0 20px;
+    margin: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 200px;
+    max-height: 500px;
+    margin: 30px;
+    border-radius: 300px;
+    box-shadow: 0 8px 16px rgba(65, 189, 226, 0.5);
+    object-fit: cover;
+}
+
+nav {
+    background-color: rgba(14, 138, 187, 0.548);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 1px 20px 4px rgba(15, 116, 99, 0.486);
+}
+
+nav a {
+    color: #e8e6ecbb;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(50, 178, 238, 0.699);
+    color: #7fc6dbb0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+/* Redes sociales en el pie de página */
+.footer {
+    background: #000305;
+    min-height: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #f7f2f2;
+    margin: 0%;
+}
+
+.social-icon {
+    background-color: #2b9ddf34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    padding: 10px;
+}
+
+.icon-elem {
+    list-style: none;
+}
+
+.icon {
+    color: #2bacdf;
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+.text {
+    color: #faf6f6;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
